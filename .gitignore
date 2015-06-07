@@ -12,3 +12,5 @@
 hs_err_pid*
 /seltzer.iml
 /.idea
+target
+/src/main/resources/features/*.feature

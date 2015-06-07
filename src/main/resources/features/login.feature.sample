@@ -1,0 +1,9 @@
+Feature: Seltzer
+
+  Scenario: Run bot
+
+    Given the bot navigates to the Twitter login page
+     When it enters "username" into the username field
+      And "password" into the password field
+      And it clicks the submit button
+     Then it should login successfully
